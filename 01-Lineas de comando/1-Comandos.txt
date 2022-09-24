@@ -1,0 +1,56 @@
+~ Indica que estoy en un carpeta
+/ Indica que estoy en la raiz del disco
+
+pwd
+    -> Muestra la dirección actual
+
+ls
+    -> lista los archivos de la dirección actual
+
+ls -al
+    -> -a: Muestra los archivos ocultos
+    -> -l: Coloca los archivos en una lista
+
+clear
+    -> limpia la consola (CRTL + L)
+
+cd ..
+    -> Retroceder carpeta
+
+cd 
+    -> Carpeta home
+
+Disco local C
+    -> windows: cd /C
+    -> ubuntu: cd /mnt/c
+
+Autocompletado
+    -> cd us (Presiono TAB)
+    -> cd user
+
+mkdir
+    -> Crear Carpeta
+    -> mkdir "nombre de carpeta"
+
+touch
+    -> Crear archivo vacio
+    -> touch "archivo_name.txt"
+
+cat
+    -> Ver contenido de archivo
+    -> cat "archivo_name.txt"
+
+history
+    -> Muestra historial de comandos
+
+!'#'
+    -> Usar un comando del history
+    -> !17
+
+rm
+    -> Eliminar
+    -> rm "archivo_name.txt"
+
+--help
+    -> Muestra las opciones del comando
+    -> rm --help
