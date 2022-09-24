@@ -1,0 +1,18 @@
+1.- git reset
+    -> git reset "v_hash_commit" --hard
+        -- Regresa a la version indicada y borra las versiones posteriores
+        -- Borra los cambios guardados previamente en el Staging
+    -> git reset "v_hash_commit" --soft
+        -- Regresa a la version indicada y borra las versiones posteriores
+        -- Mantiene los cambios guardados previamente en el Staging
+
+2.- git log --stat
+    ( log ) Muestra los commits guadados
+    (--stat) Muestra los archivos específicos donde se realizaron cambios
+    letra ( Q ) : salir
+
+3.- Navegar entre versiones sin Eliminar las otras
+    -> git checkout "v_hash_commit" "archivo_name"
+        -- cambia a una version anterior
+    -> git checkout master "archivo_name"
+        -- regresa a la versión actual

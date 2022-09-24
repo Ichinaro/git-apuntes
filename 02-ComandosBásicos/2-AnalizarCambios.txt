@@ -1,0 +1,11 @@
+1.- Ver commits
+    -> git log "archivo_name"
+
+2.- Ver cambios realizados de version anterior vs actual
+    -> git show "archivo_name"
+
+3.- Comparar cambio entre versiones
+    -> git diff
+        -- Muestra cambios entre el Staging y la carpeta de proyecto
+    -> git diff "v_hash_commit" "v_hash_commit"
+        ** "v_hash_commit": hash de la version del commit

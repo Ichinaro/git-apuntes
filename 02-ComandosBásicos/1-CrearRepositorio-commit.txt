@@ -1,0 +1,45 @@
+1.- Crear carpeta de trabajo y accederla
+    mkdir "dir_name"
+    cd "dir_name"
+
+2.- Configurar información personal
+    -> git config
+        -- Muestra una lista de configuraciones y como funcionan
+    -> git config --list
+        -- Muestra las configuraciones que tenemos
+    -> git config --list --show-origin
+        -- Muestra donde tenemos las configuraciones guardas
+    -> git config --global user.name "Johnny Gómez"
+        -- Para cambiar el usuario de forma global (usuario va en comillas)
+    -> git config --global user.email "jgomez20@utmachala.edu.ec"
+        -- Para cambiar el email de forma global
+
+3.- Iniciar Repositorio Local
+    -> git init
+    -- Se genera area de Staging y Repositorio Local
+
+4.- git status
+    -- Indica la rama actual
+    -- Muestra el estado del proyecto
+
+5.- Añadir cambios al Staging
+    -> git add "archivo_name"
+        -- Añade archivo específico
+    -> git add .
+        -- Añade todos los archivos
+
+6.- Quitar del Staging
+    -> git rm --cached "archivo_name"
+
+7.- Guardar cambios en Repositorio Local
+    -> git commit -m "dejar un mensaje"
+    ** Si no dejamos mendaje se abre vim
+        # signo de comentario
+        esc, i : para comenzar a escribir
+        esc, shift + zz: para guardar
+
+8.- otro comandos (no git)
+    -> cat "archivo_name"
+        -- Ver contenido de archivo
+    -> code "archivo_name"
+        -- Abre el "archivo_name" en VSC
