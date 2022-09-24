@@ -1,0 +1,28 @@
+SSH: Secure Shell
+
+CONFIGURAR SSH
+1.- Dirigirse al home
+2.- Configurar el email de GitHub de forma lobal
+    -> git config --global user.email "johny@mail.com"
+3.- Verificar cambios
+    -> git config -l
+4.- Cear llave SSH
+    -> ssh-keygen -t rsa -b 4096 -C "correo_gitHub"
+    -t: para indicar el tipo de algoritmo
+    -b: para indicar complejidad de la llave
+    -C: para indicar a que correo se conecta la llave
+5.- Indicamos donde guardar la llave
+    - Le damos enter para indicar la ruta por defecto
+6.- Especificar passphrase (Opcional)
+    -- cotraseña de texto adicional a la llave publica y privada
+7.-Ruta de llaves:
+    - llave privada en : ../.ssh/id_rsa
+    - llave publica en : ../.ssh/id_rsa.pub
+8.- Prender "servidor" de SSH del SO
+    -> eval $(ssh-agent -s)
+    -- el codigo responde con un: Agent pid 4724
+        Agent: Indica que servidor SSH (ssh-agent) està corriendo
+        pid: Significa indentificador del proceso
+9.- Agregar llave privada al servidor
+    (El signo ~ indica la ruta del home)
+    ssh-add ~/.ssh/id_rsa

@@ -1,0 +1,31 @@
+1.- Copiar llave pública
+    ruta: ~/.ssh/id_rsa
+
+2.- Conectar llave pública al gitHub
+    - Perfil de gitHub
+    - Opción Settings
+    - SSH and GPG keys
+    - New SSH key
+    - Title: Nombre del dispositivo
+    - Key: Llave pública
+    - Add SHH key
+
+3.- Cambiar url del repositorio
+    - Vamos a nuestros repositorios
+    - Boton: code -> copiamos SSH
+    - En terminal ubicarnos en la carpeta del proyecto
+    - usamos: git remote set-url origin git@github.com....
+        -> set-url: Para cambiar el la url HTPPS por el SSH
+        -> origin: Es el nombre del repositorio que viene por defecto
+    - verificamos git remote -v
+        * debería cambiar https://.... por git@github.com....
+
+4.- Comprobamos
+    - Traemos archivos del remoto: git pull origin master
+    - Le decimos: yes
+    - Realizamos un cambio en nuestro proyecto
+    - Creamos un commit: git commit -am "verificando SSH"
+    - Enviamos cambios al repositorio remoto
+        * Una buena practica es hacer pull antes de enviar
+        -> git pull origin master
+        -> git push origin master

@@ -1,0 +1,29 @@
+
+Motrar ramas con sus mensajes
+    git show-branch
+
+Motrar mas información de las ramas con sus mensajes
+    git show branch --all
+
+Abre un software para visualizar las ramas
+gitk
+
+/*-------------------------------ENVIAR_RAMA_AL_REMOTO------------------------------
+    Dirigirge la rama a enviar
+        -> git checkout rama_name
+    Enviar rama
+        -> git push origin rama_name
+*/
+
+/*----------------------------CREAR_Y_ENVIAR_RAMA_AL_REMOTO-------------------------
+    Dirigirse al la rama master
+        -> git checkout master
+    Crear ramas
+        -> git branch header
+        -> git branch footer
+    Confirmar ramas creadas
+        -> git branch
+    Enviar ramas
+        -> git push origin header
+        -> git push origin footer
+*/

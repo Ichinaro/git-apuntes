@@ -1,0 +1,35 @@
+1.- Creamos un New repository en GitHub
+    * Repository Name: "curso-git"
+    * Description
+    * Public
+    * Initialize this repository with a README
+    * Create repository
+
+2.- En el archivo curso-git/README.md encontramos:
+    - Raw: muestra el contenido del archivo en texto plano
+    - Blame: muestra quien a realizado cambios
+    - History: muestra los commits ( es como usar  git log )
+
+3.- Clonando repositorio
+    - En la raiz: boton Clone or download
+    - Clone with HTTPS: Copiamos URL
+    - TERMINAL
+        - Verificar que estamos en la carpeta del proyecto
+        - git remote add origin "URL"
+        - Verificar origin: git remote ( -v )
+        [- Integar el contenido remoto al local " pull " y Fusionar
+          los histories ( commits ) del remoto con local:
+            git pull origin master --allow-unrelated-histories
+        - Guardar en VIM: esc, shift + zz ]
+        - Enviar al Origen el Master: git push origin master
+        - Iniciar sesión en git
+
+4.- Vinculando cambios GitHub al local
+    - Editamos un archivo con: Edit this file
+    - Hacemos un cambio
+    - Preview changes
+    - Commit changes
+        - Colocamos un titulo y descripción
+    - Elejimos hacer el cambio en el master o una nueva rama
+    - Boton: Commit changes
+    - Treamos los cambios al local: git pull origin master

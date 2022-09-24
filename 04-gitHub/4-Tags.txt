@@ -1,0 +1,38 @@
+ver commits
+git log
+
+ver todos los commits
+git log --all
+
+Ver como estan unidos las ramas
+git log --all --graph
+
+Ver como estan unidos las ramas mas simplificado
+git log --all --graph --decorate --oneline
+
+Crear un alias para el comando
+alias arbolito="git log --all --graph --decorate --oneline"
+
+/*---------------------------------CREAR_TAG------------------------------------
+    Crear un tag
+        1.- git tag -a v0.1 -m "mensaje para el tag"
+            -a: Significa añadir
+
+    Ver tag
+        -> git tag
+
+    Ver a que commit se conecta el tag
+        -> git show-ref --tags
+
+    Enviamos tags al repositorio remoto
+        * Una buena practica es hacer pull antes de enviar
+        -> git pull origin master
+        -> git push origin --tags
+
+    Borrar tag de gitHub
+        -> git tag -d tag_name
+            -d: Significa delete
+            * Borra tag del repositorio local
+        -> git push origin :refs/tags/tag_name
+            * Borra tag del repositorio remoto
+*/
