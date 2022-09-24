@@ -1,0 +1,19 @@
+1- Clonar repositorio
+    -> git clone URL:HTTPS
+2- Confirmar archivos clonados
+    -> ls -al
+3- Realiza un cambio en un archivo
+    -> vim archivo.txt
+4- Agregar cambios
+    -> git commit -am "dejar mensaje"
+5- Enviar cambios
+    ** Antes de enviar el integrante debe terner acceso al repositorio
+    -> git pull origin master
+    -> git push origin master
+
+/*---------------------DAR_ACCESO_A_INTEGRANTE-----------------------
+    1- Dirigirse al Settings del proyecto en gitHub
+    2- Collaborators
+    3- Escibir correo o usuario en: Add collaborators
+    Nota: Para añadir por email se debe tener un email publico en el perfil de gitHub 
+*/
