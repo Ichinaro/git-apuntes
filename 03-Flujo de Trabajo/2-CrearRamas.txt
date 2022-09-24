@@ -1,0 +1,16 @@
+1.- git commit -am "mensaje del coomit"
+    -- Solo para archivos que fueron añadidos previamente
+    -- El -a permite hacer un add y -m poner un mensaje
+
+2.- git show
+    -- Muestra el ultimo cambio realizado
+    -- Indica donde apunta el Head
+
+3.- git branch
+    -- Muestra todas las ramas
+
+4.- git branch "rama_name" 
+    -- Crea una rama
+
+5.- git checkout "rama_name"
+    -- Moverse a otra rama

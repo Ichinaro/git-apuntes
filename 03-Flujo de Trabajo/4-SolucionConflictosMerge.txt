@@ -1,0 +1,15 @@
+Los conflictos se generan cuando entre 2 ramas se generan diferencias
+entre las mismas lineas de código
+
+ESTADO
+    (Master Merging): Indica que el merge no se completó, (se completa cuando hay un commit)
+
+VISUAL STUDIO CODE - OPCIONES
+    1.- Accept Current Change
+        -- Aceptar cambio actual
+
+    2.- Accept Incoming Change
+        -- Aceptar cambio que viene
+
+DESPUES DE ARREGLAR CONFLICTO
+    git commit -am "otro mensaje"

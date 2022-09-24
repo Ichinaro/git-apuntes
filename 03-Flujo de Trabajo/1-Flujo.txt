@@ -1,0 +1,47 @@
+/*--------------------------------GIT_INIT--------------------------------
+    -> git init: Inicializa git en el directorio de trabajo
+        -- Se crea un:
+            -> Staging
+            -> Repositorio Local
+*/
+
+/*--------------------------------GIT_ADD--------------------------------
+    -> git add: Hace un tracking de los cambios y envia al STAGING
+        -- La infomación enviada a Staging es temporal
+*/
+
+/*--------------------------------GIT_COMMIT--------------------------------
+    -> git commit: Envia lo que está en staging al REPOSITORIO LOCAL
+        -- La infomación guardada en el Repositorio Local se mantiene
+*/
+
+/*--------------------------------GIT_CLONE_"URL"--------------------------------
+    -> git clne "URL":
+        -- Hace una copia de los archivos del MASTER al directorio de trabajo
+        -- Crea una base de datos de los cambios historicos en el Repositorio Local
+*/
+
+/*--------------------------------GIT_PUSH--------------------------------
+    -> git push:
+        -- Envia toda la información al Repositorio Remoto (GitHub)
+*/
+
+/*--------------------------------GIT_FETCH--------------------------------
+    -- Lo usamos cuando se crea un cambio nuevo en el Repositorio Remoto
+    -> git fetch:
+        -- Actualiza datos en el Repositorio local
+*/
+
+/*--------------------------------GIT_MERGE--------------------------------
+    -- Luego de usar fetch Usamos merge para fusionar los nuevos archivos con
+        los de nuestro directorio de trabajo
+    -> git merge:
+        -- Trae los nuevos archivos del repositorio local al Directorio de Trabajo
+*/
+
+/*--------------------------------GIT_PULL--------------------------------
+    -- Cumple la función de fetch y merge al mismo tiempo
+    -> git pull:
+        -- Actualiza datos en el Repositorio local
+        -- Trae los nuevos archivos del repositorio local al Directorio de Trabajo
+*/

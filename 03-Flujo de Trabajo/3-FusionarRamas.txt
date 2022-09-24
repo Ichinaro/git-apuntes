@@ -1,0 +1,5 @@
+1.- git merge "rama_name"
+    -- Para cobinar una rama secundaria al master debemos hacer merge desde el master
+    -- Internamente un merge es un commit por tanto debemos agregar un mensaje
+    -- El merge fusiona el ultimo commit de la rama secundaria con la rama principal
+    
